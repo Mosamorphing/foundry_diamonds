@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
-import "../contracts/facets/RewardsFacet.sol";
+import "../contracts/facets/RewardFacet.sol";
 import "../contracts/libraries/LibAppStorage.sol";
 
 contract DecayTest is Test {

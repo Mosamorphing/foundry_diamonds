@@ -2,7 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "../libraries/LibAppStorage.sol";
-import "../interfaces/IERC20.sol";
+// import "../interfaces/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+
 
 contract RewardsFacet {
     event RewardsClaimed(address indexed user, uint256 amount);
